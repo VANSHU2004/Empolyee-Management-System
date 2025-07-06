@@ -3,6 +3,9 @@
 #taskList::-webkit-scrollbar{
   display: none;
 }
+#AllTasks::-webkit-scrollbar{
+  display: none;
+}
 
 .h3{
   font-size: 0.875rem;

@@ -11,9 +11,9 @@ const Login = () => {
         setPass("")
     }
   return (
-    <div className='min-h-screen flex items-center justify-center bg-black'>
-        <div className='border-2 border-blue-400 rounded-lg p-8 bg-white shadow-lg w-80'>
-            <h2 className='text-2xl font-bold mb-6 text-center text-blue-600'>Login</h2>
+    <div className='min-h-screen flex items-center justify-center bg-black text-white'>
+        <div className='border border-emerald-400 rounded-lg p-8 bg-[#1c1c1c] shadow-lg w-80'>
+            <h2 className='text-2xl font-bold mb-6 text-center text-emerald-600'>Login</h2>
             <form
             onSubmit={(e)=>{submitHandler(e)}}
             className='flex flex-col '>
@@ -48,7 +48,7 @@ const Login = () => {
                 </div>
 
                 <button
-                className='bg-blue-500 rounded-full text-white hover:bg-blue-600 py-1'>log in</button>
+                className='bg-emerald-500 rounded-full hover:bg-emerald-600 py-1 cursor-pointer'>log in</button>
             </form>
                 
         </div>
