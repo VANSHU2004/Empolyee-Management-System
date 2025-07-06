@@ -1,7 +1,7 @@
 const employees = [
   {
     id: 1,
-    email: "frontend.dev@example.com",
+    email: "shubham.frontendDev@example.com",
     password: "12345",
     tasks: [
       {
@@ -18,7 +18,7 @@ const employees = [
   },
   {
     id: 2,
-    email: "backend.dev@example.com",
+    email: "divay.backendDev@example.com",
     password: "12345",
     tasks: [
       {
@@ -35,7 +35,7 @@ const employees = [
   },
   {
     id: 3,
-    email: "qa.engineer@example.com",
+    email: "tushar.qaEngineer@example.com",
     password: "12345",
     tasks: [
       {
@@ -52,7 +52,7 @@ const employees = [
   },
   {
     id: 4,
-    email: "uiux.designer@example.com",
+    email: "atul.uiuxDesigner@example.com",
     password: "12345",
     tasks: [
       {
@@ -69,7 +69,7 @@ const employees = [
   },
   {
     id: 5,
-    email: "devops.engineer@example.com",
+    email: "yogesh.devOpsEngineer@example.com",
     password: "12345",
     tasks: [
       {
@@ -89,7 +89,7 @@ const employees = [
 const admin = [
   {
     id: 101,
-    email: "admin@techcorp.com",
+    email: "atul.admin@techcorp.com",
     password: "admin123"
   }
 ]
@@ -105,4 +105,5 @@ export const getLocalStorage = ()=>{
     const employees = JSON.parse(localStorage.getItem('employees'))
     const admin = JSON.parse(localStorage.getItem('admin'))
     // console.log(employees, admin)
+    return {employees , admin}
 }
