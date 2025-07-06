@@ -3,3 +3,9 @@
 #taskList::-webkit-scrollbar{
   display: none;
 }
+
+.h3{
+  font-size: 0.875rem;
+  color: oklch(87.2% 0.01 258.338);
+  margin-bottom: 0.125rem;
+}
