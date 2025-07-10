@@ -3,6 +3,11 @@ const employees = [
     id: 1,
     email: "shubham.frontendDev@example.com",
     password: "12345",
+    name: "Shubham",
+    activeCount: 1,
+    newCount: 1,
+    completedCount: 0,
+    failedCount: 0,
     tasks: [
       {
         active: true,
@@ -20,6 +25,11 @@ const employees = [
     id: 2,
     email: "divay.backendDev@example.com",
     password: "12345",
+    name: "Divay",
+    activeCount: 0,
+    newCount: 0,
+    completedCount: 1,
+    failedCount: 0,
     tasks: [
       {
         active: false,
@@ -37,6 +47,11 @@ const employees = [
     id: 3,
     email: "tushar.qaEngineer@example.com",
     password: "12345",
+    name: "Tushar",
+    activeCount: 0,
+    newCount: 0,
+    completedCount: 0,
+    failedCount: 1,
     tasks: [
       {
         active: false,
@@ -54,6 +69,11 @@ const employees = [
     id: 4,
     email: "atul.uiuxDesigner@example.com",
     password: "12345",
+    name: "Atul",
+    activeCount: 1,
+    newCount: 1,
+    completedCount: 0,
+    failedCount: 0,
     tasks: [
       {
         active: true,
@@ -71,6 +91,11 @@ const employees = [
     id: 5,
     email: "yogesh.devOpsEngineer@example.com",
     password: "12345",
+    name: "Yogesh",
+    activeCount: 0,
+    newCount: 0,
+    completedCount: 1,
+    failedCount: 0,
     tasks: [
       {
         active: false,
@@ -84,13 +109,14 @@ const employees = [
       }
     ]
   }
-]
+];
 
 const admin = [
   {
     id: 101,
     email: "atul.admin@techcorp.com",
-    password: "admin123"
+    password: "admin123",
+    name: "Atul",
   }
 ]
 
